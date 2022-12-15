@@ -3,6 +3,7 @@ import 'font-awesome/css/font-awesome.min.css'
 import './assets/css/app.css'
 import DashboardPage from './pages/DashboardPage'
 import WorkstationsPage from './pages/WorkstationsPage'
+import WorkstationDetailsPage from './pages/WorkstationDetailsPage/WorkstationDetailsPage'
 import LoginPage from './pages/auth/LoginPage'
 import SignupPage from './pages/auth/SignupPage'
 import ResetPassword from './pages/auth/ResetPassword'
@@ -12,11 +13,13 @@ import UserPreferencesPage from './pages/profile/UserPreferencesPage'
 import AdminBlankPage from './pages/AdminBlankPage'
 import { BrowserRouter as Router, Route, Routes } from 'react-router-dom'
 import { setDefaultUsers } from './utils/authHandler'
+import { setDefaultEvents } from './pages/WorkstationDetailsPage/workstationhelpers'
 
 function App() {
   useEffect(() => {
     // set default users if not available in storage
     setDefaultUsers()
+    setDefaultEvents()
   }, [])
 
   return (
@@ -27,6 +30,7 @@ function App() {
         <Route exact path="/signup" element={<SignupPage />} />
         <Route exact path="/dashboard" element={<DashboardPage />} />
         <Route exact path="/workstations" element={<WorkstationsPage />} />
+        <Route exact path="/workstation" element={<WorkstationDetailsPage />} />
         <Route exact path="/reset-password" element={<ResetPassword />} />
         <Route exact path="/profile" element={<ProfilePage />} />
         <Route exact path="/change-password" element={<ChangePasswordPage />} />

@@ -1,4 +1,5 @@
 import React from 'react'
+import { Link } from 'react-router-dom'
 import adminLayout from '../hoc/adminLayout'
 
 const OptionsMenu = (props) => {
@@ -15,10 +16,10 @@ const OptionsMenu = (props) => {
       </button>
       <ul className="dropdown-menu" aria-labelledby="dropdownMenuButtonSM">
         <li>
-          <a className="dropdown-item" href={() => null}>
+          <Link to="/workstation" className="dropdown-item">
             <i className="fa fa-pencil" aria-hidden="true"></i>
             &nbsp;Edit
-          </a>
+          </Link>
         </li>
         <div className="dropdown-divider"></div>
         <li>
@@ -48,6 +49,7 @@ const WorkstationsPage = (props) => {
                 <th>Desk Number</th>
                 <th>Reserved Status</th>
                 <th>Updated On</th>
+                <th>Action</th>
                 <th></th>
               </tr>
             </thead>
@@ -64,6 +66,11 @@ const WorkstationsPage = (props) => {
                 </td>
                 <td>15-Dec-2022</td>
                 <td>
+                  <Link to="/workstation" className="btn btn-primary">
+                    Book
+                  </Link>
+                </td>
+                <td>
                   <OptionsMenu></OptionsMenu>
                 </td>
               </tr>
@@ -78,6 +85,31 @@ const WorkstationsPage = (props) => {
                   </span>
                 </td>
                 <td>15-Dec-2022</td>
+                <td>
+                  <Link to="/workstation" className="btn btn-primary">
+                    Book
+                  </Link>
+                </td>
+                <td>
+                  <OptionsMenu></OptionsMenu>
+                </td>
+              </tr>
+              <tr>
+                <td>
+                  <strong>WRK-9077</strong>
+                </td>
+                <td>DESK5-TR7</td>
+                <td>
+                  <span className="badge rounded-pill bg-success">
+                    Reserved
+                  </span>
+                </td>
+                <td>17-Dec-2022</td>
+                <td>
+                  <Link to="/workstation" className="btn btn-primary">
+                    Book
+                  </Link>
+                </td>
                 <td>
                   <OptionsMenu></OptionsMenu>
                 </td>
