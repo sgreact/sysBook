@@ -2,11 +2,11 @@
 
 ### Steps for how you can start using this:
 
-##### clone respository
+# clone respository
 
-### $ npm install
+## $ npm install
 
-### $ npm start
+## $ npm start
 
 # Login
 
