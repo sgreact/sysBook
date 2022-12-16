@@ -1,4 +1,4 @@
-# System/Computer Booking application in React
+# User booking system in React
 
 ### Steps for how you can start using this:
 
