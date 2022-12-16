@@ -49,12 +49,11 @@ npm start
       -If any user going beyond above conditions ,will thrown error message
 		
 # Booking Guidelines
-
-  -Select the calender date and time, 
-  -Wher you have Add Event column, you can enter the Booking user name
-  -By default start time and end time will have 30 min
-  -No conflicts on same day/time for the user bookings 
-  -Can Update and Delete the booking as well.
+      -Select the calender date and time, 
+      -Where you have Add Event column, you can enter the Booking user name
+      -By default start time and end time will have 30 min
+      -No conflicts on same day/time for the user bookings 
+      -Can Update and Delete the booking as well.
 	
 # Alert
-  -We can reshedule the booking after the time crossed and notify to corresponding users(Not implemented)	
+      -We can reshedule the booking after the time crossed and notify to corresponding users(Not implemented)	
