@@ -1,6 +1,11 @@
 # User Booking System in React
 
-### Steps for how you can start using this:
+### Recorded video:
+
+[![Alt text](https://img.youtube.com/vi/DMMDBAxL9H8/0.jpg)](https://www.youtube.com/watch?v=DMMDBAxL9H8)
+
+
+### Steps for how you run:
 
 ```sh
 $ git clone https://github.com/sgreact/sysBook.git
