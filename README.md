@@ -1,4 +1,5 @@
-# Sys Book in React
+# System/Computer Booking application in React
+ This application will store the details in local.
 
 ### Steps for how you can start using this:
 
