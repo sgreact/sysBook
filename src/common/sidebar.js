@@ -35,8 +35,8 @@ const Sidebar = () => {
           </li>
           <hr className="dropdown-divider" />
           <li className="mb-1">
-            <Link tag="a" className="" to="/blank-page">
-              <i className="fa fa-file-o"></i> Blank Page
+            <Link tag="a" className="" to="/faq">
+              <i className="fa fa-file-o"></i> FAQ
             </Link>
           </li>
           <li className="border-top my-3"></li>

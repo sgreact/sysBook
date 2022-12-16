@@ -35,7 +35,7 @@ function App() {
         <Route exact path="/profile" element={<ProfilePage />} />
         <Route exact path="/change-password" element={<ChangePasswordPage />} />
         <Route exact path="/preferences" element={<UserPreferencesPage />} />
-        <Route exact path="/blank-page" element={<AdminBlankPage />} />
+        <Route exact path="/faq" element={<AdminBlankPage />} />
       </Routes>
     </Router>
   )
