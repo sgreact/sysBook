@@ -2,11 +2,13 @@
 
 ### Steps for how you can start using this:
 
-# clone respository
+## clone respository
 
-## $ npm install
-
-## $ npm start
+```sh
+cd sysBook
+npm install
+npm start
+```
 
 # Login
 
