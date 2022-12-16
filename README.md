@@ -1,4 +1,4 @@
-# User booking system in React
+# User Booking System in React
 
 ### Steps for how you can start using this:
 
