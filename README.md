@@ -2,12 +2,11 @@
 
 ### Steps for how you can start using this:
 
-## clone respository
-
 ```sh
-cd sysBook
-npm install
-npm start
+$ git clone https://github.com/sgreact/sysBook.git
+$ cd sysBook
+$ npm install
+$ npm start
 ```
 
 # Login
