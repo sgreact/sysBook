@@ -4,9 +4,9 @@
 
 ##### clone respository
 
-##### $ npm install
+### $ npm install
 
-##### $ npm start
+### $ npm start
 
 # Login
 
